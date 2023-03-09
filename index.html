@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>March 8 HTML CSS Static Web Page Design</title>
+
+    
+    <style>
+        #main {
+            /*	        background-color: white;*/
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #titlediv {
+            /*            background-color:blue;*/
+            color: dodgerblue;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        #bodydiv {
+            /*            background-color: lightblue;*/
+            display: flex;
+            flex-direction: row;
+        }
+
+        #newsdiv {
+            background-color: #ededed;
+            margin: 0;
+        }
+
+        #footerdiv {
+            margin: 0;
+            background-color: #faf7f7;
+            color: dimgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 100px;
+            align-items: center;
+        }
+
+        #leftdiv {
+            /*            background-color: pink;*/
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #rightdiv {
+            flex-grow: 1;
+            /*            background-color:lightgreen;*/
+        }
+
+        #biodiv {
+            /*            background-color:antiquewhite;*/
+        }
+
+        #lowdiv {
+            /*            background-color: palevioletred;*/
+            display: flex;
+            flex-direction: row;
+        }
+
+        #interestdiv {
+            /*            background-color:lightpink;*/
+        }
+
+        #educationdiv {
+            /*            background-color:mediumspringgreen;*/
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--<img src="static/imgs/email.png" />-->
+
+    <div id="main">
+
+        <div id="titlediv">
+            Isabella Miller's Website
+        </div>
+
+        <div id="bodydiv">
+
+            <div id="leftdiv">
+                <div>
+                    <img style="width:200px;height:200px;border-radius:50%;  " src="static/imgs/head1.png" />
+                </div>
+
+                <div>
+                    <div style="font-size:30px;">Isabella Miller</div>
+                </div>
+
+                <div>
+                    <span style="color:dimgrey;">
+                        Student in Management Information Systems
+                    </span>
+                </div>
+                <div>
+                    <span style="color:dimgrey;">The University of Oklahoma</span>
+                </div>
+
+                <div>
+                    <a target="_blank" href="mailto:Isabella.M.Miller-1@ou.edu">
+                        <img style="width:30px;" src="static/imgs/email.png" />
+                    </a>
+
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <img style="width:30px;" src="static/imgs/linkedin.png" />
+                    </a>
+
+                    <a target="_blank" href="https://twitter.com/">
+                        <img style="width:30px;" src="static/imgs/twitter.png" />
+                    </a>
+
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img style="width:30px;" src="static/imgs/instagram.png" />
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div id="rightdiv">
+                <div id="biodiv">
+                    <span style="font-size:30px;font-weight:bold;">
+                        Biography
+                    </span>
+
+                    <p>
+                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022 /2023 job market.
+                    </p>
+
+                    <p>
+                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                    </p>
+
+                    <p>
+                        For more information, please refer to my <a href="static/files/cv.pdf" ; target="_blank">CV.</a>
+                    </p>
+
+                </div>
+
+                <div id="lowdiv">
+
+                    <div id="interestdiv">
+                        <span style="font-size:30px;font-weight:bold;">Interests</span>
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li> Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li> Data Scientists</li>
+                        </ol>
+                    </div>
+
+                    <div id="educationdiv">
+                        <span style="font-size:30px;font-weight:bold;">Education</span>
+
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024 <br />
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022 <br />
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="newsdiv">
+            <span style="font-size:30px;font-weight:bold;">
+                Recent News
+            </span>
+
+
+            <ul>
+                <li>
+                    Learning C# Web Application Design
+                </li>
+                <li>
+                    Learning C# EF
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div id="footerdiv">
+            Designed and Published by Isabella Miller
+        </div>
+
+    </div>
+</body>
+</html>
